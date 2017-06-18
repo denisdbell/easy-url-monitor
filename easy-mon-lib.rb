@@ -19,7 +19,7 @@ def start_monitoring
 
 
     #Hash nap to store monitoring results
-    monitory_results_hash = []
+    monitor_results_hash = []
 
     #Read configuration
     config = read_configuration_file
@@ -29,49 +29,64 @@ def start_monitoring
     create_json_log_file
 
     while true
-        
-        count = 0
-
-        for url in config['config']['urls']
-
-           
-            new_url = URI.parse(url['value'] + "?#{SecureRandom.uuid}" ) #Add UUID to prevent caching
-
-            log "#{url['value']}?#{SecureRandom.uuid}"
-
-            request = Net::HTTP::Get.new(new_url.to_s)
-
-            response = Net::HTTP.start(new_url.host, new_url.port) {|http|
-                http.request(request)
-            }
             
-          
-           monitory_results_hash[count] = { :url => url['value'], :code => response.code }
+        begin
            
-           log "responded with a status of #{  response.code } "
+            count = 0
 
-           log monitory_results_hash.to_json.to_s
+            for url in config['config']['urls']
 
-           count = count + 1
+            
+                new_url = URI.parse(url['value'] + "?#{SecureRandom.uuid}" ) #Add UUID to prevent caching
 
-        end
-        
-        update_json_log_file(monitory_results_hash.to_json.to_s)
-         
-        log "
-                *******************************************************
-                Monitoring delayed by #{monitorDelayInSeconds} seconds
+                log "#{url['value']}?#{SecureRandom.uuid}"
+
+                request = Net::HTTP::Get.new(new_url.to_s)
+
+                response = Net::HTTP.start(new_url.host, new_url.port) {|http|
+                    http.request(request)
+                    }
+                    
+
+                monitor_results_hash[count] = { :url => url['value'], :status => if response.code.to_i >= 400 then 'Un-Available' else 'Available' end }
                 
-                ********************************************************        
-             "
+                log "responded with a status of #{  response.code } "
 
-        #Delay monitoring of URLS by specified interval
-        sleep monitorDelayInSeconds
+                log monitor_results_hash.to_json.to_s
 
+                count = count + 1
 
+            end
+                        
+            log "
+                    *******************************************************
+                    Monitoring delayed by #{monitorDelayInSeconds} seconds
+                    
+                    ********************************************************        
+                "
+
+           
+        rescue Exception => e   
+         
+            log e.message
+            
+            monitor_results_hash[count] = { :url => url['value'], :status => 'Un-Available'}
+           
+
+        ensure
+
+            update_json_log_file(monitor_results_hash.to_json.to_s)
+            
+            #Delay monitoring of URLS by specified interval
+            sleep monitorDelayInSeconds
+            
+        end
+
+        
+            
     end
-end
 
+end
 
 #Validates input form the command line
 def command_line_input_validation(command)
