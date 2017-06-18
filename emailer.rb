@@ -4,7 +4,8 @@
 
     This is used to send emails
 
-=end
+    This has been removed because of a bug
+
 
 require 'mail'
 require "./configuration"
@@ -50,3 +51,4 @@ def send_email
 end
 
 
+=end
