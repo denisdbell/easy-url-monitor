@@ -1,3 +1,11 @@
+=begin
+    
+    -- Denis Bell -- <denisdbell@gmail.com> Emelius Enterprizes
+
+    This is used to send emails
+
+=end
+
 require 'mail'
 require "./configuration"
 
