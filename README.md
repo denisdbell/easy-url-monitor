@@ -1,4 +1,4 @@
-#Easy URL Monitor
+**Easy URL Monitor**
 
 This is a simple http/https url monitoring tool.
 
@@ -49,6 +49,12 @@ ruby version > 2.0 to 2.X
  5. After customizing the configuration you can start monitoring the URLS  added in the urls array of the config.json. Exebegicute the following command to start monitoring process:
  
  		sh  monitor.sh monitor
+		
+
+6. Navigate to http://localhost:3456 and you should see the following web page displayed:
+
+![alt text](https://raw.githubusercontent.com/denisdbell/easy-url-monitor/master/eum-dashboard.png)
+
  
  
 	
