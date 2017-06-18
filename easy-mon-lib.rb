@@ -48,7 +48,8 @@ def start_monitoring
                     }
                     
 
-                monitor_results_hash[count] = { :url => url['value'], :status => if response.code.to_i >= 400 then 'Un-Available' else 'Available' end }
+                monitor_results_hash[count] = { :url => url['value'], :status => if response.code.to_i >= 400 then 'Un-Available' else 'Available' end, :dateTime => Time.now.strftime("%d/%m/%Y %H:%M")
+ }
                 
                 log "responded with a status of #{  response.code } "
 
@@ -70,7 +71,7 @@ def start_monitoring
          
             log e.message
             
-            monitor_results_hash[count] = { :url => url['value'], :status => 'Un-Available'}
+            monitor_results_hash[count] = { :url => url['value'], :status => 'Un-Available', :dateTime => Time.now.strftime("%d/%m/%Y %H:%M")}
            
 
         ensure
