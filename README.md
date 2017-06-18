@@ -61,12 +61,12 @@ You are now in business!!! Reach out to me directly at denisdbell@gmail.com if y
 
 **TO DO**
 
-- Add unit and integration tests
-- Add ability to modify the configuration file from the web interface
-- Add functionilty to send emai when URLl is inactive.
-- Add rich reporting and dashboards
+- Add unit and integration tests.
+- Add ability to modify the configuration file from the web interface.
+- Add functionilty to send emai when URL is inactive.
+- Add rich reporting and dashboards.
 - Create script to install eum as a service so that it can be stared and stopped.
-- Add it to the apt repository
+- Add it to the apt repository.
 
  
  
