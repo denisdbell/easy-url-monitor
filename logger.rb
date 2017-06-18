@@ -1,3 +1,10 @@
+=begin
+    
+    -- Denis Bell -- <denisdbell@gmail.com> Emelius Enterprizes
+
+    This is used for logging application out out
+=end
+
 require 'logger'  
 require 'fileutils'
 
