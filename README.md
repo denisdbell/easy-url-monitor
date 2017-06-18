@@ -56,7 +56,17 @@ ruby version > 2.0 to 2.X
 ![alt text](https://raw.githubusercontent.com/denisdbell/easy-url-monitor/master/eum-dashboard.png)
 
 
-You are now in business!!! Reach out to me directly at denisdbell@gmail.com if you have any feedback/concerns. Also feel free to fork the repo and improve the application.
+You are now in business!!! Reach out to me directly at denisdbell@gmail.com if you have any feedback/concerns. Also feel free to fork the repo and improve the application
+
+
+**TO DO**
+
+- Add unit and integration tests
+- Add ability to modify the configuration file from the web interface
+- Add functionilty to send emai when URLl is inactive.
+- Add rich reporting and dashboards
+- Create script to install eum as a service so that it can be stared and stopped.
+- Add it to the apt repository
 
  
  
