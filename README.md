@@ -1,6 +1,6 @@
 **Easy URL Monitor**
 
-This is a simple application used http/https url monitoring tool.
+This is a simple application used for monitoring http/https url's.
 
 **Dependencies**
 
