@@ -29,35 +29,59 @@ def start_monitoring
     create_json_log_file
 
     while true
-            
-        begin
-           
+                       
             count = 0
 
             for url in config['config']['urls']
 
-            
-                new_url = URI.parse(url['value'] + "?#{SecureRandom.uuid}" ) #Add UUID to prevent caching
+                begin
 
-                log "#{url['value']}?#{SecureRandom.uuid}"
+                        new_url = URI.parse(url['value'] + "?#{SecureRandom.uuid}" ) #Add UUID to prevent caching
 
-                request = Net::HTTP::Get.new(new_url.to_s)
+                        log "#{url['value']}?#{SecureRandom.uuid}"
 
-                response = Net::HTTP.start(new_url.host, new_url.port) {|http|
-                    http.request(request)
-                    }
-                    
+                        request = Net::HTTP::Get.new(new_url.to_s)
 
-                monitor_results_hash[count] = { :url => url['value'], :status => if response.code.to_i >= 400 then 'Un-Available' else 'Available' end, :dateTime => Time.now.strftime("%d/%m/%Y %H:%M")
- }
+                        response = Net::HTTP.start(new_url.host, new_url.port) {|http|
+                            http.request(request)
+                        }
+
+                        monitor_results_hash[count] = { :url => url['value'], 
+                                                        :status => if response.code.to_i >= 400 then 'Un-Available' else 'Available' end,
+                                                        :dateTime => Time.now.strftime("%d/%m/%Y %H:%M")
+                                                      }
+                        
+                        log "responded with a status of #{  response.code } "
+
+                       
+
+                      
                 
-                log "responded with a status of #{  response.code } "
+                rescue Exception => e   
+         
+                    log e.message
+                    
+                    monitor_results_hash[count] = { 
+                                                        :url => url['value'],
+                                                        :status => 'Un-Available', 
+                                                        :dateTime => Time.now.strftime("%d/%m/%Y %H:%M")
+                                                  }
+                
+                ensure
 
-                log monitor_results_hash.to_json.to_s
+                    count = count + 1
 
-                count = count + 1
-
+                    update_json_log_file(monitor_results_hash.to_json.to_s)
+                    
+                    #Delay monitoring of URLS by specified interval
+                    sleep monitorDelayInSeconds
+                    
+                end
+                    
             end
+
+            log monitor_results_hash.to_json.to_s
+
                         
             log "
                     *******************************************************
@@ -67,21 +91,7 @@ def start_monitoring
                 "
 
            
-        rescue Exception => e   
-         
-            log e.message
-            
-            monitor_results_hash[count] = { :url => url['value'], :status => 'Un-Available', :dateTime => Time.now.strftime("%d/%m/%Y %H:%M")}
-           
-
-        ensure
-
-            update_json_log_file(monitor_results_hash.to_json.to_s)
-            
-            #Delay monitoring of URLS by specified interval
-            sleep monitorDelayInSeconds
-            
-        end
+     
 
         
             
