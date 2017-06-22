@@ -1,0 +1,2 @@
+class MonitorResult < ApplicationRecord
+end

@@ -1,0 +1,42 @@
+<%= form_for(app_configuration) do |f| %>
+  <% if app_configuration.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(app_configuration.errors.count, "error") %> prohibited this app_configuration from being saved:</h2>
+
+      <ul>
+      <% app_configuration.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :monitor_delay_In_seconds %>
+    <%= f.number_field :monitor_delay_In_seconds %>
+  </div>
+
+  <div class="field">
+    <%= f.label :smtp_server %>
+    <%= f.text_field :smtp_server %>
+  </div>
+
+  <div class="field">
+    <%= f.label :smtp_port %>
+    <%= f.text_field :smtp_port %>
+  </div>
+
+  <div class="field">
+    <%= f.label :ssl_required %>
+    <%= f.check_box :ssl_required %>
+  </div>
+
+  <div class="field">
+    <%= f.label :username %>
+    <%= f.text_field :username %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

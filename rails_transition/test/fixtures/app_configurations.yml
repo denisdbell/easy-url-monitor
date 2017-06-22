@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  monitor_delay_In_seconds: 1
+  smtp_server: MyString
+  smtp_port: MyString
+  ssl_required: false
+  username: MyString
+
+two:
+  monitor_delay_In_seconds: 1
+  smtp_server: MyString
+  smtp_port: MyString
+  ssl_required: false
+  username: MyString

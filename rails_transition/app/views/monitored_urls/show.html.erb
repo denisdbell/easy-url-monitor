@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @monitored_url.url %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @monitored_url.active %>
+</p>
+
+<%= link_to 'Edit', edit_monitored_url_path(@monitored_url) %> |
+<%= link_to 'Back', monitored_urls_path %>

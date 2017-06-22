@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Http response code:</strong>
+  <%= @monitor_result.http_response_code %>
+</p>
+
+<p>
+  <strong>Http reponse body:</strong>
+  <%= @monitor_result.http_reponse_body %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @monitor_result.active %>
+</p>
+
+<%= link_to 'Edit', edit_monitor_result_path(@monitor_result) %> |
+<%= link_to 'Back', monitor_results_path %>

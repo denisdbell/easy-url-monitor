@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @notifcation_email.email %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @notifcation_email.active %>
+</p>
+
+<%= link_to 'Edit', edit_notifcation_email_path(@notifcation_email) %> |
+<%= link_to 'Back', notifcation_emails_path %>

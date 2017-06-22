@@ -1,0 +1,2 @@
+module NotifcationEmailsHelper
+end

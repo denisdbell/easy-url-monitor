@@ -1,0 +1,1050 @@
+[2017-06-18 12:22:29] INFO  WEBrick 1.3.1
+[2017-06-18 12:22:29] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+[2017-06-18 12:22:29] INFO  WEBrick::HTTPServer#start: pid=2101 port=3456
+[2017-06-18 12:24:04] INFO  WEBrick 1.3.1
+[2017-06-18 12:24:04] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+::1 - - [18/Jun/2017:12:25:53 UTC] "GET / HTTP/1.1" 200 1041
+- -> /
+[2017-06-18 12:26:01] ERROR `/apploication.json' not found.
+::1 - - [18/Jun/2017:12:26:01 UTC] "GET /apploication.json HTTP/1.1" 404 287
+- -> /apploication.json
+::1 - - [18/Jun/2017:12:26:05 UTC] "GET /application.json HTTP/1.1" 200 46
+- -> /application.json
+[2017-06-18 12:36:19] INFO  WEBrick 1.3.1
+[2017-06-18 12:36:19] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:39:17] INFO  WEBrick 1.3.1
+[2017-06-18 12:39:17] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:39:35] INFO  WEBrick 1.3.1
+[2017-06-18 12:39:35] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:40:30] INFO  WEBrick 1.3.1
+[2017-06-18 12:40:30] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:41:25] INFO  WEBrick 1.3.1
+[2017-06-18 12:41:25] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:44:16] INFO  WEBrick 1.3.1
+[2017-06-18 12:44:16] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:44:40] INFO  WEBrick 1.3.1
+[2017-06-18 12:44:40] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:44:51] INFO  WEBrick 1.3.1
+[2017-06-18 12:44:51] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:47:52] INFO  WEBrick 1.3.1
+[2017-06-18 12:47:52] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:48:36] INFO  WEBrick 1.3.1
+[2017-06-18 12:48:36] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:52:01] INFO  WEBrick 1.3.1
+[2017-06-18 12:52:01] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:52:20] INFO  WEBrick 1.3.1
+[2017-06-18 12:52:20] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:54:13] INFO  WEBrick 1.3.1
+[2017-06-18 12:54:13] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:55:14] INFO  WEBrick 1.3.1
+[2017-06-18 12:55:14] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 12:58:08] INFO  WEBrick 1.3.1
+[2017-06-18 12:58:08] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 13:02:16] INFO  WEBrick 1.3.1
+[2017-06-18 13:02:16] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 13:06:27] INFO  WEBrick 1.3.1
+[2017-06-18 13:06:27] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 13:06:50] INFO  WEBrick 1.3.1
+[2017-06-18 13:06:50] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 13:08:01] INFO  WEBrick 1.3.1
+[2017-06-18 13:08:01] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 13:08:38] INFO  WEBrick 1.3.1
+[2017-06-18 13:08:38] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 13:08:44] INFO  WEBrick 1.3.1
+[2017-06-18 13:08:44] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 13:08:55] INFO  WEBrick 1.3.1
+[2017-06-18 13:08:55] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 13:29:20] INFO  WEBrick 1.3.1
+[2017-06-18 13:29:20] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+::1 - - [18/Jun/2017:13:29:47 UTC] "GET / HTTP/1.1" 200 25117
+- -> /
+[2017-06-18 13:31:48] INFO  going to shutdown ...
+[2017-06-18 13:31:48] INFO  WEBrick::HTTPServer#start done.
+[2017-06-18 13:33:44] INFO  WEBrick 1.3.1
+[2017-06-18 13:33:44] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+[2017-06-18 13:33:44] INFO  WEBrick::HTTPServer#start: pid=2011 port=3456
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET / HTTP/1.1" 200 25117
+- -> /
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21984
+http://localhost:3456/ -> /font-awesome/css/font-awesome.min.css
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /css/bootstrap.min.css HTTP/1.1" 200 121200
+http://localhost:3456/ -> /css/bootstrap.min.css
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /css/sb-admin.css HTTP/1.1" 200 3480
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /js/jquery.js HTTP/1.1" 200 95785
+http://localhost:3456/ -> /js/jquery.js
+http://localhost:3456/ -> /css/sb-admin.css
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /css/plugins/morris.css HTTP/1.1" 200 433
+http://localhost:3456/ -> /css/plugins/morris.css
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /js/bootstrap.min.js HTTP/1.1" 200 37045
+http://localhost:3456/ -> /js/bootstrap.min.js
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /js/plugins/morris/raphael.min.js HTTP/1.1" 200 92872
+http://localhost:3456/ -> /js/plugins/morris/raphael.min.js
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /js/plugins/morris/morris-data.js HTTP/1.1" 200 5337
+http://localhost:3456/ -> /js/plugins/morris/morris-data.js
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /js/plugins/morris/morris.min.js HTTP/1.1" 200 35652
+http://localhost:3456/ -> /js/plugins/morris/morris.min.js
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+http://localhost:3456/font-awesome/css/font-awesome.min.css -> /font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0
+[2017-06-18 13:33:56] ERROR `/favicon.ico' not found.
+10.0.2.2 - - [18/Jun/2017:13:33:56 UTC] "GET /favicon.ico HTTP/1.1" 404 281
+http://localhost:3456/ -> /favicon.ico
+10.0.2.2 - - [18/Jun/2017:13:37:23 UTC] "GET / HTTP/1.1" 200 25117
+- -> /
+[2017-06-18 13:37:47] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:13:37:47 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:13:38:20 UTC] "GET / HTTP/1.1" 200 24486
+- -> /
+[2017-06-18 13:38:20] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:13:38:20 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:13:39:13 UTC] "GET / HTTP/1.1" 200 22126
+- -> /
+[2017-06-18 13:39:13] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:13:39:13 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:13:44:07 UTC] "GET / HTTP/1.1" 200 22122
+- -> /
+10.0.2.2 - - [18/Jun/2017:13:44:08 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:13:45:51 UTC] "GET / HTTP/1.1" 200 22136
+- -> /
+10.0.2.2 - - [18/Jun/2017:13:46:04 UTC] "GET / HTTP/1.1" 200 22137
+- -> /
+10.0.2.2 - - [18/Jun/2017:13:46:19 UTC] "GET / HTTP/1.1" 200 22137
+- -> /
+10.0.2.2 - - [18/Jun/2017:13:47:33 UTC] "GET / HTTP/1.1" 200 16438
+- -> /
+10.0.2.2 - - [18/Jun/2017:13:51:25 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:14:14 UTC] "GET / HTTP/1.1" 200 10803
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:14:45 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:14:46 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 14:25:22] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:25:22 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:35:14 UTC] "GET / HTTP/1.1" 200 9120
+- -> /
+[2017-06-18 14:35:14] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:35:14 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:35:46 UTC] "GET / HTTP/1.1" 200 8998
+- -> /
+[2017-06-18 14:35:46] ERROR unsupported method `POST'.
+10.0.2.2 - - [18/Jun/2017:14:35:46 UTC] "POST /application.json HTTP/1.1" 405 300
+http://localhost:3456/ -> /application.json
+[2017-06-18 14:35:47] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:35:47 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:36:03 UTC] "GET / HTTP/1.1" 200 8997
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:36:03 UTC] "GET /application.json HTTP/1.1" 200 163
+http://localhost:3456/ -> /application.json
+[2017-06-18 14:36:03] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:36:03 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:37:00 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 14:37:00] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:37:00 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:38:24 UTC] "GET / HTTP/1.1" 200 9018
+- -> /
+[2017-06-18 14:38:25] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:38:25 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:38:47 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 14:38:47] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:38:47 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:40:20 UTC] "GET / HTTP/1.1" 200 9022
+- -> /
+[2017-06-18 14:40:20] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:40:20 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:40:25 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 14:40:25] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:40:25 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:41:31 UTC] "GET / HTTP/1.1" 200 9027
+- -> /
+[2017-06-18 14:41:31] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:41:31 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:42:35 UTC] "GET / HTTP/1.1" 200 9028
+- -> /
+[2017-06-18 14:42:35] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:42:35 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:42:47 UTC] "GET / HTTP/1.1" 200 9023
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:42:48 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+[2017-06-18 14:42:48] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:42:48 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:43:26 UTC] "GET / HTTP/1.1" 200 9021
+- -> /
+[2017-06-18 14:43:27] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:43:27 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:44:55 UTC] "GET / HTTP/1.1" 200 9114
+- -> /
+[2017-06-18 14:44:55] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:44:55 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+[2017-06-18 14:47:26] INFO  WEBrick 1.3.1
+[2017-06-18 14:47:26] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+/home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+10.0.2.2 - - [18/Jun/2017:14:47:33 UTC] "GET / HTTP/1.1" 200 9108
+- -> /
+[2017-06-18 14:47:33] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:47:33 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:47:45 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 14:47:45] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:47:45 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:48:17 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:48:17 UTC] "GET /application.json HTTP/1.1" 200 253
+http://localhost:3456/ -> /application.json
+[2017-06-18 14:48:18] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:48:18 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:51:11 UTC] "GET / HTTP/1.1" 200 9115
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:51:12 UTC] "GET /application.json HTTP/1.1" 200 253
+http://localhost:3456/ -> /application.json
+[2017-06-18 14:51:12] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:51:12 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:51:13 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 14:51:13] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:51:13 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:51:14 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:51:14 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+[2017-06-18 14:51:14] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:51:14 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:51:15 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 14:51:15] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:51:15 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:51:36 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:51:36 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+[2017-06-18 14:51:36] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:14:51:36 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:14:51:41 UTC] "GET / HTTP/1.1" 200 9115
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:51:41 UTC] "GET /css/bootstrap.min.css HTTP/1.1" 200 121200
+http://localhost:3456/ -> /css/bootstrap.min.css
+10.0.2.2 - - [18/Jun/2017:14:51:41 UTC] "GET /font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21984
+10.0.2.2 - - [18/Jun/2017:14:51:41 UTC] "GET /css/sb-admin.css HTTP/1.1" 200 3480
+http://localhost:3456/ -> /font-awesome/css/font-awesome.min.css
+http://localhost:3456/ -> /css/sb-admin.css
+10.0.2.2 - - [18/Jun/2017:14:51:41 UTC] "GET /css/plugins/morris.css HTTP/1.1" 200 433
+http://localhost:3456/ -> /css/plugins/morris.css
+10.0.2.2 - - [18/Jun/2017:14:51:41 UTC] "GET /js/bootstrap.min.js HTTP/1.1" 200 37045
+http://localhost:3456/ -> /js/bootstrap.min.js
+10.0.2.2 - - [18/Jun/2017:14:51:41 UTC] "GET /js/jquery.js HTTP/1.1" 200 95785
+http://localhost:3456/ -> /js/jquery.js
+10.0.2.2 - - [18/Jun/2017:14:51:41 UTC] "GET /js/plugins/morris/raphael.min.js HTTP/1.1" 200 92872
+http://localhost:3456/ -> /js/plugins/morris/raphael.min.js
+10.0.2.2 - - [18/Jun/2017:14:51:41 UTC] "GET /font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+http://localhost:3456/font-awesome/css/font-awesome.min.css -> /font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0
+10.0.2.2 - - [18/Jun/2017:14:51:42 UTC] "GET /application.json HTTP/1.1" 200 253
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:14:53:16 UTC] "GET / HTTP/1.1" 200 9113
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:53:16 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:14:53:43 UTC] "GET / HTTP/1.1" 200 9146
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:53:43 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:14:54:06 UTC] "GET / HTTP/1.1" 200 9148
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:54:06 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:14:55:30 UTC] "GET / HTTP/1.1" 200 8953
+- -> /
+10.0.2.2 - - [18/Jun/2017:14:55:31 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:14:55:31 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:00:33 UTC] "GET / HTTP/1.1" 200 9038
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:00:33 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:15:01:00 UTC] "GET / HTTP/1.1" 200 9038
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:01:24 UTC] "GET / HTTP/1.1" 200 9041
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:01:25 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:01:49 UTC] "GET / HTTP/1.1" 200 9042
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:01:49 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:15:02:44 UTC] "GET / HTTP/1.1" 200 9145
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:03:01 UTC] "GET / HTTP/1.1" 200 9151
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:03:01 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:15:05:09 UTC] "GET / HTTP/1.1" 200 9042
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:05:09 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:15:06:26 UTC] "GET / HTTP/1.1" 200 9062
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:06:27 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:06:45 UTC] "GET / HTTP/1.1" 200 9003
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:06:45 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:15:09:06 UTC] "GET / HTTP/1.1" 200 9009
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:09:06 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+[2017-06-18 15:09:10] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:09:10 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:15:10:15 UTC] "GET / HTTP/1.1" 200 9010
+- -> /
+[2017-06-18 15:10:15] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:10:15 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:15:12:17 UTC] "GET / HTTP/1.1" 200 9035
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:12:17 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+[2017-06-18 15:12:17] ERROR `/css/bootstrap.min.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:12:17 UTC] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 295
+- -> /css/bootstrap.min.css.map
+10.0.2.2 - - [18/Jun/2017:15:13:12 UTC] "GET / HTTP/1.1" 200 8999
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:13:12 UTC] "GET /css/bootstrap.css HTTP/1.1" 200 146010
+http://localhost:3456/ -> /css/bootstrap.css
+[2017-06-18 15:13:12] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:13:12 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:13:33 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 15:13:33] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:13:33 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:14:30 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:14:30 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+[2017-06-18 15:14:30] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:14:30 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:14:30 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 15:14:31] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:14:31 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:14:31 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 15:14:31] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:14:31 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:16:59 UTC] "GET / HTTP/1.1" 200 9019
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:16:59 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+[2017-06-18 15:16:59] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:16:59 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:17:01 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 15:17:01] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:17:01 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:17:03 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 15:17:03] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:17:03 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:17:04 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 15:17:04] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:17:04 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:17:04 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 15:17:05] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:17:05 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:18:04 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 15:18:04] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:18:04 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:19:05 UTC] "GET / HTTP/1.1" 200 9061
+- -> /
+[2017-06-18 15:19:05] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:19:05 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:19:55 UTC] "GET / HTTP/1.1" 200 9081
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:19:55 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+[2017-06-18 15:19:55] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:19:55 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:20:12 UTC] "GET / HTTP/1.1" 200 9084
+- -> /
+[2017-06-18 15:20:13] ERROR `/css/bootstrap.css.map' not found.
+10.0.2.2 - - [18/Jun/2017:15:20:13 UTC] "GET /css/bootstrap.css.map HTTP/1.1" 404 291
+- -> /css/bootstrap.css.map
+10.0.2.2 - - [18/Jun/2017:15:29:27 UTC] "GET / HTTP/1.1" 200 9625
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:29:27 UTC] "GET /js/underscore.js HTTP/1.1" 200 16449
+http://localhost:3456/ -> /js/underscore.js
+10.0.2.2 - - [18/Jun/2017:15:29:27 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:15:30:16 UTC] "GET / HTTP/1.1" 200 9625
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:30:16 UTC] "GET /js/underscore.js HTTP/1.1" 304 0
+http://localhost:3456/ -> /js/underscore.js
+10.0.2.2 - - [18/Jun/2017:15:31:19 UTC] "GET / HTTP/1.1" 200 9624
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:31:19 UTC] "GET /js/underscore.js HTTP/1.1" 304 0
+http://localhost:3456/ -> /js/underscore.js
+10.0.2.2 - - [18/Jun/2017:15:38:20 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:38:20 UTC] "GET /js/underscore.js HTTP/1.1" 304 0
+http://localhost:3456/ -> /js/underscore.js
+10.0.2.2 - - [18/Jun/2017:15:38:21 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:15:38:40 UTC] "GET /index.html HTTP/1.1" 200 9624
+http://localhost:3456/ -> /index.html
+[2017-06-18 10:48:04] INFO  WEBrick 1.3.1
+[2017-06-18 10:48:04] INFO  ruby 2.3.3 (2016-11-21) [x86_64-linux-gnu]
+[2017-06-18 10:48:04] INFO  WEBrick::HTTPServer#start: pid=23341 port=3456
+[2017-06-18 10:55:43] INFO  WEBrick 1.3.1
+[2017-06-18 10:55:43] INFO  ruby 2.3.3 (2016-11-21) [x86_64-linux-gnu]
+/usr/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /usr/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /usr/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /usr/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /usr/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /usr/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /usr/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-18 10:55:50] INFO  WEBrick 1.3.1
+[2017-06-18 10:55:50] INFO  ruby 2.3.3 (2016-11-21) [x86_64-linux-gnu]
+/usr/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /usr/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /usr/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /usr/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /usr/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /usr/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /usr/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+10.0.2.2 - - [18/Jun/2017:15:57:52 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:15:57:52 UTC] "GET /js/underscore.js HTTP/1.1" 304 0
+http://localhost:3456/ -> /js/underscore.js
+10.0.2.2 - - [18/Jun/2017:15:57:52 UTC] "GET /application.json HTTP/1.1" 200 256
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:16:33:58 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:16:33:58 UTC] "GET /js/underscore.js HTTP/1.1" 304 0
+http://localhost:3456/ -> /js/underscore.js
+10.0.2.2 - - [18/Jun/2017:16:33:58 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [18/Jun/2017:16:34:00 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [18/Jun/2017:16:34:01 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+[2017-06-18 11:59:49] INFO  going to shutdown ...
+[2017-06-18 11:59:49] INFO  WEBrick::HTTPServer#start done.
+[2017-06-19 03:21:45] INFO  WEBrick 1.3.1
+[2017-06-19 03:21:45] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+[2017-06-19 03:21:45] INFO  WEBrick::HTTPServer#start: pid=2062 port=3456
+10.0.2.2 - - [19/Jun/2017:03:22:15 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [19/Jun/2017:03:22:15 UTC] "GET /js/underscore.js HTTP/1.1" 304 0
+http://localhost:3456/ -> /js/underscore.js
+[2017-06-19 03:22:15] ERROR `/favicon.ico' not found.
+10.0.2.2 - - [19/Jun/2017:03:22:15 UTC] "GET /favicon.ico HTTP/1.1" 404 281
+10.0.2.2 - - [19/Jun/2017:03:22:15 UTC] "GET /application.json HTTP/1.1" 200 253
+http://localhost:3456/ -> /favicon.ico
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [19/Jun/2017:03:23:32 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [19/Jun/2017:03:23:32 UTC] "GET /application.json HTTP/1.1" 200 256
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [19/Jun/2017:03:23:35 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [19/Jun/2017:03:23:35 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [19/Jun/2017:03:23:46 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [19/Jun/2017:03:23:47 UTC] "GET /application.json HTTP/1.1" 200 256
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [19/Jun/2017:03:23:47 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [19/Jun/2017:03:23:47 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [19/Jun/2017:03:23:48 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [19/Jun/2017:03:23:48 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [19/Jun/2017:03:23:48 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [19/Jun/2017:03:23:48 UTC] "GET /application.json HTTP/1.1" 304 0
+http://localhost:3456/ -> /application.json
+10.0.2.2 - - [19/Jun/2017:03:25:00 UTC] "GET / HTTP/1.1" 304 0
+- -> /
+10.0.2.2 - - [19/Jun/2017:03:25:00 UTC] "GET /application.json HTTP/1.1" 200 253
+http://localhost:3456/ -> /application.json
+[2017-06-19 17:23:55] INFO  WEBrick 1.3.1
+[2017-06-19 17:23:55] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+[2017-06-19 17:23:55] INFO  WEBrick::HTTPServer#start: pid=2062 port=3456
+10.0.2.2 - - [19/Jun/2017:17:24:17 UTC] "GET / HTTP/1.1" 200 9648
+- -> /
+10.0.2.2 - - [19/Jun/2017:17:24:18 UTC] "GET /css/sb-admin.css HTTP/1.1" 200 3480
+http://localhost:3456/ -> /css/sb-admin.css
+10.0.2.2 - - [19/Jun/2017:17:24:17 UTC] "GET /css/bootstrap.css HTTP/1.1" 200 146011
+http://localhost:3456/ -> /css/bootstrap.css
+10.0.2.2 - - [19/Jun/2017:17:24:17 UTC] "GET /css/plugins/morris.css HTTP/1.1" 200 433
+http://localhost:3456/ -> /css/plugins/morris.css
+10.0.2.2 - - [19/Jun/2017:17:24:18 UTC] "GET /font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21984
+10.0.2.2 - - [19/Jun/2017:17:24:18 UTC] "GET /js/underscore.js HTTP/1.1" 200 16449
+http://localhost:3456/ -> /font-awesome/css/font-awesome.min.css
+10.0.2.2 - - [19/Jun/2017:17:24:18 UTC] "GET /js/bootstrap.min.js HTTP/1.1" 200 37045
+http://localhost:3456/ -> /js/underscore.js
+http://localhost:3456/ -> /js/bootstrap.min.js
+10.0.2.2 - - [19/Jun/2017:17:24:18 UTC] "GET /js/plugins/morris/raphael.min.js HTTP/1.1" 200 92872
+http://localhost:3456/ -> /js/plugins/morris/raphael.min.js
+10.0.2.2 - - [19/Jun/2017:17:24:18 UTC] "GET /js/jquery.js HTTP/1.1" 200 95785
+10.0.2.2 - - [19/Jun/2017:17:24:18 UTC] "GET /font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+http://localhost:3456/ -> /js/jquery.js
+http://localhost:3456/font-awesome/css/font-awesome.min.css -> /font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0
+10.0.2.2 - - [19/Jun/2017:17:24:18 UTC] "GET /application.json HTTP/1.1" 200 262
+http://localhost:3456/ -> /application.json
+[2017-06-19 17:24:18] ERROR `/favicon.ico' not found.
+10.0.2.2 - - [19/Jun/2017:17:24:18 UTC] "GET /favicon.ico HTTP/1.1" 404 281
+- -> /favicon.ico
+[2017-06-19 17:24:18] ERROR `/favicon.ico' not found.
+10.0.2.2 - - [19/Jun/2017:17:24:18 UTC] "GET /favicon.ico HTTP/1.1" 404 281
+- -> /favicon.ico
+[2017-06-20 13:27:40] INFO  WEBrick 1.3.1
+[2017-06-20 13:27:40] INFO  ruby 2.3.3 (2016-11-21) [x86_64-linux-gnu]
+[2017-06-20 13:27:40] INFO  WEBrick::HTTPServer#start: pid=16218 port=3456
+127.0.0.1 - - [20/Jun/2017:13:28:22 EST] "GET / HTTP/1.1" 200 9624
+- -> /
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /css/bootstrap.css HTTP/1.1" 200 146011
+http://localhost:3456/ -> /css/bootstrap.css
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /css/sb-admin.css HTTP/1.1" 200 3480
+http://localhost:3456/ -> /css/sb-admin.css
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /js/underscore.js HTTP/1.1" 200 16449
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /font-awesome/css/font-awesome.min.css HTTP/1.1" 200 21984
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /css/plugins/morris.css HTTP/1.1" 200 433
+http://localhost:3456/ -> /js/underscore.js
+http://localhost:3456/ -> /css/plugins/morris.css
+http://localhost:3456/ -> /font-awesome/css/font-awesome.min.css
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /js/jquery.js HTTP/1.1" 200 95785
+http://localhost:3456/ -> /js/jquery.js
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /js/plugins/morris/raphael.min.js HTTP/1.1" 200 92872
+http://localhost:3456/ -> /js/plugins/morris/raphael.min.js
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /js/bootstrap.min.js HTTP/1.1" 200 37045
+http://localhost:3456/ -> /js/bootstrap.min.js
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+http://localhost:3456/font-awesome/css/font-awesome.min.css -> /font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /application.json HTTP/1.1" 200 253
+http://localhost:3456/ -> /application.json
+[2017-06-20 13:28:23] ERROR `/favicon.ico' not found.
+127.0.0.1 - - [20/Jun/2017:13:28:23 EST] "GET /favicon.ico HTTP/1.1" 404 281
+http://localhost:3456/ -> /favicon.ico
+[2017-06-20 13:29:05] INFO  WEBrick 1.3.1
+[2017-06-20 13:29:05] INFO  ruby 2.3.3 (2016-11-21) [x86_64-linux-gnu]
+/usr/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /usr/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /usr/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /usr/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /usr/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /usr/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /usr/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-20 13:34:53] INFO  WEBrick 1.3.1
+[2017-06-20 13:34:53] INFO  ruby 2.3.3 (2016-11-21) [x86_64-linux-gnu]
+/usr/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /usr/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /usr/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /usr/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /usr/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /usr/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /usr/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+[2017-06-20 13:36:33] INFO  WEBrick 1.3.1
+[2017-06-20 13:36:33] INFO  ruby 2.3.3 (2016-11-21) [x86_64-linux-gnu]
+/usr/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /usr/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /usr/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /usr/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /usr/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /usr/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /usr/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+127.0.0.1 - - [20/Jun/2017:13:37:32 EST] "GET / HTTP/1.1" 304 0
+- -> /
+127.0.0.1 - - [20/Jun/2017:13:37:32 EST] "GET /application.json HTTP/1.1" 200 261
+http://localhost:3456/ -> /application.json
+[2017-06-20 13:42:11] INFO  WEBrick 1.3.1
+[2017-06-20 13:42:11] INFO  ruby 2.3.3 (2016-11-21) [x86_64-linux-gnu]
+/usr/lib/ruby/2.3.0/socket.rb:205:in `bind': Address already in use - bind(2) for [::]:3456 (Errno::EADDRINUSE)
+	from /usr/lib/ruby/2.3.0/socket.rb:205:in `listen'
+	from /usr/lib/ruby/2.3.0/socket.rb:759:in `block in tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `each'
+	from /usr/lib/ruby/2.3.0/socket.rb:231:in `foreach'
+	from /usr/lib/ruby/2.3.0/socket.rb:757:in `tcp_server_sockets'
+	from /usr/lib/ruby/2.3.0/webrick/utils.rb:65:in `create_listeners'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:134:in `listen'
+	from /usr/lib/ruby/2.3.0/webrick/server.rb:115:in `initialize'
+	from /usr/lib/ruby/2.3.0/webrick/httpserver.rb:47:in `initialize'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `new'
+	from /usr/lib/ruby/2.3.0/un.rb:325:in `block in httpd'
+	from /usr/lib/ruby/2.3.0/un.rb:71:in `setup'
+	from /usr/lib/ruby/2.3.0/un.rb:315:in `httpd'
+	from -e:1:in `<main>'
+127.0.0.1 - - [20/Jun/2017:13:42:34 EST] "GET / HTTP/1.1" 304 0
+- -> /
+127.0.0.1 - - [20/Jun/2017:13:42:34 EST] "GET /application.json HTTP/1.1" 200 169
+http://localhost:3456/ -> /application.json
+127.0.0.1 - - [20/Jun/2017:13:42:36 EST] "GET / HTTP/1.1" 304 0
+- -> /
+127.0.0.1 - - [20/Jun/2017:13:42:36 EST] "GET /application.json HTTP/1.1" 200 253
+http://localhost:3456/ -> /application.json
+[2017-06-20 22:56:35] INFO  going to shutdown ...
+[2017-06-20 22:56:36] INFO  WEBrick::HTTPServer#start done.

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Monitor delay in seconds:</strong>
+  <%= @app_configuration.monitor_delay_In_seconds %>
+</p>
+
+<p>
+  <strong>Smtp server:</strong>
+  <%= @app_configuration.smtp_server %>
+</p>
+
+<p>
+  <strong>Smtp port:</strong>
+  <%= @app_configuration.smtp_port %>
+</p>
+
+<p>
+  <strong>Ssl required:</strong>
+  <%= @app_configuration.ssl_required %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @app_configuration.username %>
+</p>
+
+<%= link_to 'Edit', edit_app_configuration_path(@app_configuration) %> |
+<%= link_to 'Back', app_configurations_path %>

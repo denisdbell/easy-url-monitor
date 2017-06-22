@@ -1,0 +1,27 @@
+<%= form_for(notifcation_email) do |f| %>
+  <% if notifcation_email.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(notifcation_email.errors.count, "error") %> prohibited this notifcation_email from being saved:</h2>
+
+      <ul>
+      <% notifcation_email.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= f.label :active %>
+    <%= f.check_box :active %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

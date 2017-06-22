@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Monitor Results</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Http response code</th>
+      <th>Http reponse body</th>
+      <th>Active</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @monitor_results.each do |monitor_result| %>
+      <tr>
+        <td><%= monitor_result.http_response_code %></td>
+        <td><%= monitor_result.http_reponse_body %></td>
+        <td><%= monitor_result.active %></td>
+        <td><%= link_to 'Show', monitor_result %></td>
+        <td><%= link_to 'Edit', edit_monitor_result_path(monitor_result) %></td>
+        <td><%= link_to 'Destroy', monitor_result, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Monitor Result', new_monitor_result_path %>

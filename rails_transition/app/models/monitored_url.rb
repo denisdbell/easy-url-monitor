@@ -1,0 +1,2 @@
+class MonitoredUrl < ApplicationRecord
+end

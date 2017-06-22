@@ -1,0 +1,32 @@
+<%= form_for(monitor_result) do |f| %>
+  <% if monitor_result.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(monitor_result.errors.count, "error") %> prohibited this monitor_result from being saved:</h2>
+
+      <ul>
+      <% monitor_result.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :http_response_code %>
+    <%= f.number_field :http_response_code %>
+  </div>
+
+  <div class="field">
+    <%= f.label :http_reponse_body %>
+    <%= f.text_area :http_reponse_body %>
+  </div>
+
+  <div class="field">
+    <%= f.label :active %>
+    <%= f.check_box :active %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

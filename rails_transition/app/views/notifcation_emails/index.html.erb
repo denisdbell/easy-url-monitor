@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Notifcation Emails</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Email</th>
+      <th>Active</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @notifcation_emails.each do |notifcation_email| %>
+      <tr>
+        <td><%= notifcation_email.email %></td>
+        <td><%= notifcation_email.active %></td>
+        <td><%= link_to 'Show', notifcation_email %></td>
+        <td><%= link_to 'Edit', edit_notifcation_email_path(notifcation_email) %></td>
+        <td><%= link_to 'Destroy', notifcation_email, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Notifcation Email', new_notifcation_email_path %>
