@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170622015554) do
+ActiveRecord::Schema.define(version: 20170625200449) do
 
   create_table "app_configurations", force: :cascade do |t|
     t.integer  "monitor_delay_In_seconds"
@@ -20,6 +20,16 @@ ActiveRecord::Schema.define(version: 20170622015554) do
     t.string   "username"
     t.datetime "created_at",               null: false
     t.datetime "updated_at",               null: false
+  end
+
+  create_table "app_configurations_monitored_urls", id: false, force: :cascade do |t|
+    t.integer "app_configuration_id"
+    t.integer "monitored_url_id"
+  end
+
+  create_table "app_configurations_notification_emails", id: false, force: :cascade do |t|
+    t.integer "app_configuration_id"
+    t.integer "notifcation_email_id"
   end
 
   create_table "configurations", force: :cascade do |t|
