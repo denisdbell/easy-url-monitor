@@ -32,16 +32,6 @@ ActiveRecord::Schema.define(version: 20170625200449) do
     t.integer "notifcation_email_id"
   end
 
-  create_table "configurations", force: :cascade do |t|
-    t.integer  "monitor_delay_In_seconds"
-    t.string   "smtp_server"
-    t.string   "smtp_port"
-    t.boolean  "ssl_required"
-    t.string   "username"
-    t.datetime "created_at",               null: false
-    t.datetime "updated_at",               null: false
-  end
-
   create_table "monitor_results", force: :cascade do |t|
     t.integer  "http_response_code"
     t.text     "http_reponse_body"
