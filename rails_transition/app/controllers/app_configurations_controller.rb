@@ -1,6 +1,7 @@
 class AppConfigurationsController < ApplicationController
-  before_action :set_app_configuration, only: [:show, :edit, :update, :destroy]
 
+  before_action :set_app_configuration, only: [:show, :edit, :update, :destroy]
+  
   # GET /app_configurations
   # GET /app_configurations.json
   def index
@@ -14,7 +15,10 @@ class AppConfigurationsController < ApplicationController
 
   # GET /app_configurations/new
   def new
+   
     @app_configuration = AppConfiguration.new
+   
+    @notification_emails = ['denis1@gmail.com','denis1@gmail.com','denis1@gmail.com']
   end
 
   # GET /app_configurations/1/edit
@@ -24,7 +28,11 @@ class AppConfigurationsController < ApplicationController
   # POST /app_configurations
   # POST /app_configurations.json
   def create
+
+
     @app_configuration = AppConfiguration.new(app_configuration_params)
+
+    puts app_configuration_params
 
     respond_to do |format|
       if @app_configuration.save
@@ -65,6 +73,7 @@ class AppConfigurationsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_app_configuration
       @app_configuration = AppConfiguration.find(params[:id])
+      @notification_emails = AppConfiguration.all
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
